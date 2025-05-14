@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>E-buy</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header class="hero">
+        <h1>Welcome to <span class="highlight">E-Buy</span></h1>
+        <p>Your one-stop shop for everything!</p>
+    </header>
+    
+  <nav>
+    <div class="logo">E-Buy</div>
+    <div class="nav-links">
+      <a href="#">Home</a>
+      <a href="#">Cart</a>
+      <a href="#">Login</a>
+    </div>
+  </nav>
+
+  <div class="main">
+    <aside class="sidebar">
+      <h3>Categories</h3>
+      <ul>
+        <li><a href="#">📱 Electronics</a></li>
+        <li><a href="#">👕 Clothing</a></li>
+        <li><a href="#">⌚ Accessories</a></li>
+        <li><a href="#">🛋️ Home & Living</a></li>
+      </ul>
+    </aside>
+
+    <section class="product-section">
+      <h2>Featured Products</h2>
+      <div class="product-list">
+        <!-- Repeatable Product Card -->
+        <div class="product" data-name="Product 1" data-price="20">
+          <img src="assets/Jeans pant.jpg" alt="pants">
+          <h4>Jeans Pants</h4>
+          <p>$20</p>
+          <button class="add-to-cart">Add to Cart</button>
+        </div>
+        <div class="product" data-name="Product 2" data-price="25">
+          <img src="assets/premium casual shirt.png" alt="shirt">
+          <h4>premium casual shirt</h4>
+          <p>$25</p>
+          <button class="add-to-cart">Add to Cart</button>
+        </div>
+        <div class="product" data-name="Product 3" data-price="30">
+          <img src="assets/long sleeve.jpeg" alt="shirt">
+          <h4>Long sleeve casual shirt</h4>
+          <p>$30</p>
+          <button class="add-to-cart">Add to Cart</button>
+        </div>
+        <div class="product" data-name="Product 4" data-price="18">
+          <img src="assets/Knitted cotton polo.jpg" alt="Cotton polo">
+          <h4>Single Jersey Knitted Cotton Polo</h4>
+          <p>$18</p>
+          <button class="add-to-cart">Add to Cart</button>
+        </div>
+        <div class="product" data-name="Product 5" data-price="22">
+          <img src="assets/Double PK cotton polo.jpg" alt="Double PK cotton polo">
+          <h4>Double PK cotton polo</h4>
+          <p>$22</p>
+          <button class="add-to-cart">Add to Cart</button>
+        </div>
+        <div class="product" data-name="Product 6" data-price="35">
+          <img src="assets/Oxford shoe.webp" alt="Oxfort Shoes">
+          <h4>Oxford Shoes</h4>
+          <p>$35</p>
+          <button class="add-to-cart">Add to Cart</button>
+        </div>
+        <div class="product" data-name="Product 7" data-price="40">
+          <img src="assets/White color casual laceup shoes.jpg" alt="White color casual laceup shoes">
+          <h4>White color casual laceup shoes</h4>
+          <p>$32</p>
+          <button class="add-to-cart">Add to Cart</button>
+        </div>
+        <div class="product" data-name="Product 8" data-price="28">
+          <img src="assets/Goldstar shoes.png" alt="Goldstar shoes">
+          <h4>Goldstar shoes</h4>
+          <p>$28</p>
+          <button class="add-to-cart">Add to Cart</button>
+        </div>
+        <div class="product" data-name="Product 9" data-price="28">
+            <img src="assets/Basketball shoes adidas.avif" alt="Basketball shoes adidas">
+            <h4>Basketball shoes adidas</h4>
+            <p>$45</p>
+            <button class="add-to-cart">Add to Cart</button>
+          </div>
+          <div class="product" data-name="Product 10" data-price="28">
+            <img src="assets/Casual tousers.webp" alt="Casual tousers">
+            <h4>Casual tousers</h4>
+            <p>$18</p>
+            <button class="add-to-cart">Add to Cart</button>
+          </div>
+          <div class="product" data-name="Product 11" data-price="28">
+            <img src="assets/mens-jogger-pant.webp" alt="Mens jogger pant">
+            <h4>Mens jogger pant</h4>
+            <p>$15</p>
+            <button class="add-to-cart">Add to Cart</button>
+          </div>
+          <div class="product" data-name="Product 12" data-price="28">
+            <img src="assets/combo casual mens wear.jpg" alt="Combo casual mens wear">
+            <h4>Combo casual mens wear</h4>
+            <p>$80</p>
+            <button class="add-to-cart">Add to Cart</button>
+          </div>
+      </div>
+      <hr>
+<div class="cart-section">
+  <h2>Your Cart</h2>
+  <div id="cart-items"></div>
+
+  <div class="cart-summary">
+    <label for="coupon">Coupon Code:</label>
+    <input type="text" id="coupon" placeholder="Enter coupon (SAVE10)">
+    <button onclick="applyCoupon()">Apply</button>
+
+    <p>Shipping: $<span id="shipping-cost">5</span></p>
+    <p>Discount: $<span id="discount-amount">0</span></p>
+    <p><strong>Total: $<span id="total-price">0</span></strong></p>
+  </div>
+</div>
+    </section>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
