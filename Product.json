@@ -1,0 +1,63 @@
+[
+    {
+      "name": "Jeans Pants",
+      "price": 20,
+      "image": "assets/Jeans pant.jpg"
+    },
+    {
+      "name": "Premium Casual Shirt",
+      "price": 25,
+      "image": "assets/premium casual shirt.png"
+    },
+    {
+      "name": "Long Sleeve Casual Shirt",
+      "price": 30,
+      "image": "assets/long sleeve.jpeg"
+    },
+    {
+      "name": "Single Jersey Knitted Cotton Polo",
+      "price": 18,
+      "image": "assets/Knitted cotton polo.jpg"
+    },
+    {
+      "name": "Double PK Cotton Polo",
+      "price": 22,
+      "image": "assets/Double PK cotton polo.jpg"
+    },
+    {
+      "name": "Oxford Shoes",
+      "price": 35,
+      "image": "assets/Oxford shoe.webp"
+    },
+    {
+      "name": "White Color Casual Laceup Shoes",
+      "price": 32,
+      "image": "assets/White color casual laceup shoes.jpg"
+    },
+    {
+      "name": "Goldstar Shoes",
+      "price": 28,
+      "image": "assets/Goldstar shoes.png"
+    },
+    {
+      "name": "Basketball Shoes Adidas",
+      "price": 45,
+      "image": "assets/Basketball shoes adidas.avif"
+    },
+    {
+      "name": "Casual Trousers",
+      "price": 18,
+      "image": "assets/Casual tousers.webp"
+    },
+    {
+      "name": "Mens Jogger Pant",
+      "price": 15,
+      "image": "assets/mens-jogger-pant.webp"
+    },
+    {
+      "name": "Combo Casual Mens Wear",
+      "price": 80,
+      "image": "assets/combo casual mens wear.jpg"
+    }
+  ]
+  
